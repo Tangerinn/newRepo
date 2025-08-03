@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="PFwjI5xz76DF85EKXyYI">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="13" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Izek-PB7fgDzVprNoVY3-15" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;SALE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="325" width="143" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-16" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CUSTOMER&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="276.9" y="325" width="143" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-17" value="&lt;h2&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-weight: normal;&quot;&gt;REPAIR&lt;/font&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="276.9" y="52" width="143" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-22" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;REQUESTS&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="260" y="169" width="176.8" height="90.67" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-24" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-22" target="Izek-PB7fgDzVprNoVY3-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="338" y="273" as="sourcePoint" />
+            <mxPoint x="498" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-25" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="Izek-PB7fgDzVprNoVY3-24">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-31" value="" style="shape=link;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-22" target="Izek-PB7fgDzVprNoVY3-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="204" y="143" as="sourcePoint" />
+            <mxPoint x="364" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-32" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="Izek-PB7fgDzVprNoVY3-31">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-34" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" connectable="0" parent="Izek-PB7fgDzVprNoVY3-31">
+          <mxGeometry x="0.05" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-35" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;MAKES_A&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="494" y="299" width="202.8" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-36" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-35" target="Izek-PB7fgDzVprNoVY3-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="390" as="sourcePoint" />
+            <mxPoint x="433" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-37" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="Izek-PB7fgDzVprNoVY3-36">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-38" value="" style="shape=link;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;width=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-35" target="Izek-PB7fgDzVprNoVY3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="568" y="350.5" as="sourcePoint" />
+            <mxPoint x="728" y="350.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-39" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="Izek-PB7fgDzVprNoVY3-38">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-60" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" connectable="0" parent="Izek-PB7fgDzVprNoVY3-38">
+          <mxGeometry x="-0.0769" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-41" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;INSTRUMENTS&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="890.5" y="559" width="156" height="56.73" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-42" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;INCLUDES&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="884" y="414" width="169" height="86.67" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-50" value="" style="shape=link;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-15" target="Izek-PB7fgDzVprNoVY3-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="351" as="sourcePoint" />
+            <mxPoint x="981.5" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-51" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="Izek-PB7fgDzVprNoVY3-50">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-58" y="-63" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-53" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-42" target="Izek-PB7fgDzVprNoVY3-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="969" y="507" as="sourcePoint" />
+            <mxPoint x="979" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-54" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="Izek-PB7fgDzVprNoVY3-53">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-57" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;COMPANY&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="481" y="663" width="143" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-58" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;MANUFACTURED_BY&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="663" y="624" width="253.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.583;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-41" target="Izek-PB7fgDzVprNoVY3-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-61" value="" style="shape=link;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;width=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-58" target="Izek-PB7fgDzVprNoVY3-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="662" as="sourcePoint" />
+            <mxPoint x="988" y="662" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-62" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="Izek-PB7fgDzVprNoVY3-61">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-20" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-63" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" connectable="0" parent="Izek-PB7fgDzVprNoVY3-61">
+          <mxGeometry x="-0.0769" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-66" value="" style="shape=link;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-57" target="Izek-PB7fgDzVprNoVY3-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542" y="657.25" as="sourcePoint" />
+            <mxPoint x="627" y="720.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-67" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="Izek-PB7fgDzVprNoVY3-66">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-68" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMPLOYEE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="221" y="414.00000000000006" width="143" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-70" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PERFORMS&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="61.10000000000002" y="169" width="176.8" height="90.67" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-76" value="" style="shape=link;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="116.9" y="77.5" as="sourcePoint" />
+            <mxPoint x="276.9" y="77.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-77" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="Izek-PB7fgDzVprNoVY3-76">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-4" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-78" value="&lt;h3&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;IS A&lt;/span&gt;&lt;/h3&gt;" style="triangle;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="247.23000000000002" y="520" width="90.54" height="69.73" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-79" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;REPAIR_TECHNICIAN&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="52.00000000000001" y="650" width="208" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-80" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;SALES_ASSOCIATE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="273" y="650" width="195" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-83" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-78" target="Izek-PB7fgDzVprNoVY3-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="390" as="sourcePoint" />
+            <mxPoint x="433" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-84" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-79" target="Izek-PB7fgDzVprNoVY3-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="390" as="sourcePoint" />
+            <mxPoint x="433" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-85" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#23445D;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-80" target="Izek-PB7fgDzVprNoVY3-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="390" as="sourcePoint" />
+            <mxPoint x="433" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
