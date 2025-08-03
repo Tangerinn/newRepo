@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="PFwjI5xz76DF85EKXyYI">
-    <mxGraphModel dx="2377" dy="1308" grid="1" gridSize="13" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1121" grid="1" gridSize="13" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -213,7 +213,7 @@
         <mxCell id="G7WZexkPzq9MRGBm2pqB-104" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="442" y="871" as="geometry" />
         </mxCell>
-        <mxCell id="G7WZexkPzq9MRGBm2pqB-105" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PROCESSES&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+        <mxCell id="G7WZexkPzq9MRGBm2pqB-105" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PROCESSES&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#cce5ff, #b9ccda);" vertex="1" parent="1">
           <mxGeometry x="1508" y="676" width="202.8" height="104" as="geometry" />
         </mxCell>
         <mxCell id="G7WZexkPzq9MRGBm2pqB-106" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#23445D, #1b1d1e);fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;" edge="1" parent="1" source="G7WZexkPzq9MRGBm2pqB-105" target="Izek-PB7fgDzVprNoVY3-80">
