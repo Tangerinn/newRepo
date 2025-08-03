@@ -1,0 +1,238 @@
+<mxfile host="app.diagrams.net" version="28.0.7">
+  <diagram name="Spotify ER Diagram" id="Spotify-ERD">
+    <mxGraphModel dx="2419" dy="1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2200" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="USER-ENTITY" value="&lt;h2&gt;USER&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="840" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ARTIST-ENTITY" value="&lt;h2&gt;ARTIST&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="130" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ALBUM-ENTITY" value="&lt;h2&gt;ALBUM&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="130" y="780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TRACK-ENTITY" value="&lt;h2&gt;TRACK&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="840" y="780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAYLIST-ENTITY" value="&lt;h2&gt;PLAYLIST&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PODCAST-ENTITY" value="&lt;h2&gt;PODCAST&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPISODE-ENTITY" value="&lt;h2&gt;EPISODE&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REL-USER-FOLLOWS-ARTIST" value="FOLLOWS" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#191414;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="460" y="365" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-USER-FOLLOWS" value="N" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" edge="1" parent="1" source="USER-ENTITY" target="REL-USER-FOLLOWS-ARTIST">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-FOLLOWS-ARTIST" value="M" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" edge="1" parent="1" source="REL-USER-FOLLOWS-ARTIST" target="ARTIST-ENTITY">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REL-ARTIST-RELEASES-ALBUM" value="RELEASES" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#191414;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="125" y="550" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-ARTIST-RELEASES" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;labelPosition=left;verticalLabelPosition=bottom;align=right;verticalAlign=top;" edge="1" parent="1" source="ARTIST-ENTITY" target="REL-ARTIST-RELEASES-ALBUM">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-RELEASES-ALBUM" value="N" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;" edge="1" parent="1" source="REL-ARTIST-RELEASES-ALBUM" target="ALBUM-ENTITY">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REL-ALBUM-HAS-TRACKS" value="CONTAINS" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#191414;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="460" y="765" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-ALBUM-CONTAINS" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" edge="1" parent="1" source="ALBUM-ENTITY" target="REL-ALBUM-HAS-TRACKS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-CONTAINS-TRACK" value="N" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" edge="1" parent="1" source="REL-ALBUM-HAS-TRACKS" target="TRACK-ENTITY">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REL-ARTIST-PERFORMS-TRACK" value="PERFORMS" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#191414;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="460" y="550" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-ARTIST-PERFORMS" value="M" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ARTIST-ENTITY" target="REL-ARTIST-PERFORMS-TRACK">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE-PERFORMS-TRACK" value="N" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="REL-ARTIST-PERFORMS-TRACK" target="TRACK-ENTITY">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REL-USER-CREATES-PLAYLIST" value="CREATES" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#191414;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="365" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-USER-CREATES" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="USER-ENTITY" target="REL-USER-CREATES-PLAYLIST">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-CREATES-PLAYLIST" value="N" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="REL-USER-CREATES-PLAYLIST" target="PLAYLIST-ENTITY">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REL-PLAYLIST-INCLUDES-TRACK" value="INCLUDES" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#191414;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="765" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-PLAYLIST-INCLUDES" value="M" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="PLAYLIST-ENTITY" target="REL-PLAYLIST-INCLUDES-TRACK">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1610" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDGE-INCLUDES-TRACK" value="N" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="REL-PLAYLIST-INCLUDES-TRACK" target="TRACK-ENTITY">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REL-PODCAST-HAS-EPISODE" value="HAS" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#191414;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1165" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-PODCAST-HAS" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="PODCAST-ENTITY" target="REL-PODCAST-HAS-EPISODE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDGE-HAS-EPISODE" value="N" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="REL-PODCAST-HAS-EPISODE" target="EPISODE-ENTITY">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-USER-ID" value="&lt;u&gt;User_ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="700" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-USER-Username" value="Username" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="850" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-USER-Email" value="Email" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-USER-Password" value="Password_Hash" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-USER-DisplayName" value="Display_Name" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="700" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-USER-DOB" value="Date_of_Birth" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="850" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-USER-Subscription" value="Subscription_Type" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-USER-Followers" value="Follower_Count" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="320" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-ARTIST-ID" value="&lt;u&gt;Artist_ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-ARTIST-Name" value="Artist_Name" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-ARTIST-Bio" value="Bio" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-ARTIST-Listeners" value="Monthly_Listeners" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-ALBUM-ID" value="&lt;u&gt;Album_ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="20" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-ALBUM-Title" value="Album_Title" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="170" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-ALBUM-ReleaseDate" value="Release_Date" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="20" y="860" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-ALBUM-Type" value="Album_Type" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="170" y="860" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-TRACK-ID" value="&lt;u&gt;Track_ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="700" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-TRACK-Title" value="Track_Title" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="850" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-TRACK-Duration" value="Duration_ms" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-TRACK-Streams" value="Stream_Count" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="700" y="860" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-TRACK-Explicit" value="Is_Explicit" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="850" y="860" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-PLAYLIST-ID" value="&lt;u&gt;Playlist_ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-PLAYLIST-Name" value="Playlist_Name" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-PLAYLIST-Public" value="Is_Public" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-PLAYLIST-Duration" value="Total_Duration" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-PODCAST-ID" value="&lt;u&gt;Podcast_ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1090" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-PODCAST-Title" value="Podcast_Title" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1090" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-PODCAST-Publisher" value="Publisher" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-PODCAST-Category" value="Category" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-EPISODE-ID" value="&lt;u&gt;Episode_ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1090" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-EPISODE-Title" value="Episode_Title" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1090" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-EPISODE-Duration" value="Duration_ms" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1090" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATTR-EPISODE-Streams" value="Stream_Count" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#cdeb8b;strokeColor=#1DB954;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-USER-ID" target="USER-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-USER-Username" target="USER-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-USER-Email" target="USER-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-USER-Password" target="USER-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-USER-DisplayName" target="USER-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-USER-DOB" target="USER-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-USER-Subscription" target="USER-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-USER-Followers" target="USER-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-ARTIST-ID" target="ARTIST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-ARTIST-Name" target="ARTIST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-ARTIST-Bio" target="ARTIST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-ARTIST-Listeners" target="ARTIST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-ALBUM-ID" target="ALBUM-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-ALBUM-Title" target="ALBUM-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-ALBUM-ReleaseDate" target="ALBUM-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-ALBUM-Type" target="ALBUM-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-TRACK-ID" target="TRACK-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-TRACK-Title" target="TRACK-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-TRACK-Duration" target="TRACK-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-TRACK-Streams" target="TRACK-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-TRACK-Explicit" target="TRACK-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-PLAYLIST-ID" target="PLAYLIST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-PLAYLIST-Name" target="PLAYLIST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-PLAYLIST-Public" target="PLAYLIST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-PLAYLIST-Duration" target="PLAYLIST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-PODCAST-ID" target="PODCAST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-PODCAST-Title" target="PODCAST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-PODCAST-Publisher" target="PODCAST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-PODCAST-Category" target="PODCAST-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-EPISODE-ID" target="EPISODE-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-EPISODE-Title" target="EPISODE-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-EPISODE-Duration" target="EPISODE-ENTITY" />
+        <mxCell style="endArrow=none;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="ATTR-EPISODE-Streams" target="EPISODE-ENTITY" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
