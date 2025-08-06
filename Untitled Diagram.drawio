@@ -128,7 +128,7 @@
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-67" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" parent="Izek-PB7fgDzVprNoVY3-66" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="-14" as="offset" />
+            <mxPoint x="-30" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-68" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMPLOYEE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
