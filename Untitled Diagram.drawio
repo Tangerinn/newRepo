@@ -4,11 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Izek-PB7fgDzVprNoVY3-15" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;SALE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
-          <mxGeometry x="1163.5" y="533" width="143" height="52" as="geometry" />
-        </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-16" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CUSTOMER&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#FFFFFF,#FFFFFF);gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="692.9" y="533" width="143" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Izek-PB7fgDzVprNoVY3-15" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;SALE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="1163.5" y="533" width="143" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-17" value="&lt;h2&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-weight: normal;&quot;&gt;REPAIR&lt;/font&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="692.9" y="260" width="143" height="52" as="geometry" />
