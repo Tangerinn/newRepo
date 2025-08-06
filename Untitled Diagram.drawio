@@ -667,9 +667,6 @@
         <mxCell id="6n8Q-E2ToeJIdVFmMYRX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.783;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r6ik5AGAl6sVwmavMajq-9" target="r6ik5AGAl6sVwmavMajq-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6n8Q-E2ToeJIdVFmMYRX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;" edge="1" parent="1" source="6n8Q-E2ToeJIdVFmMYRX-2" target="GEMINI-ATTR-EMP-9A">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6n8Q-E2ToeJIdVFmMYRX-2" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;CUSTOMER&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" vertex="1" parent="1">
           <mxGeometry x="682" y="539" width="143" height="52" as="geometry" />
         </mxCell>
