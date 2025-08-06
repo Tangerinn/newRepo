@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="PFwjI5xz76DF85EKXyYI">
-    <mxGraphModel dx="1678" dy="924" grid="0" gridSize="13" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="light-dark(#FFFFFF, #ffffff)" math="0" shadow="1">
+    <mxGraphModel dx="2037" dy="1121" grid="0" gridSize="13" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="light-dark(#FFFFFF, #ffffff)" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Izek-PB7fgDzVprNoVY3-15" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;SALE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="1163.5" y="533" width="143" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-16" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CUSTOMER&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-16" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CUSTOMER&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#FFFFFF,#FFFFFF);gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="692.9" y="533" width="143" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-17" value="&lt;h2&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-weight: normal;&quot;&gt;REPAIR&lt;/font&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
@@ -73,16 +73,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G7WZexkPzq9MRGBm2pqB-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Izek-PB7fgDzVprNoVY3-41" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1384.5000000000005" y="687" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-41" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;INSTRUMENT&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E, #ffffff);" parent="1" vertex="1">
           <mxGeometry x="1306.5" y="767" width="156" height="56.73" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-42" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;INCLUDES&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(default, #1b1d1e);" parent="1" vertex="1">
-          <mxGeometry x="1300" y="622" width="169" height="86.67" as="geometry" />
+          <mxGeometry x="1290" y="615" width="169" height="86.67" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-50" value="" style="shape=link;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Izek-PB7fgDzVprNoVY3-15" target="Izek-PB7fgDzVprNoVY3-42" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -104,16 +99,11 @@
         <mxCell id="Izek-PB7fgDzVprNoVY3-54" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" parent="Izek-PB7fgDzVprNoVY3-53" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ukh730mb9IVmaOttTi9Z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Izek-PB7fgDzVprNoVY3-57" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1133" y="897" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-57" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;COMPANY&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="910" y="871" width="143" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-58" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;MANUFACTURED_BY&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(default, #1b1d1e);" parent="1" vertex="1">
-          <mxGeometry x="1079" y="832" width="253.5" height="130" as="geometry" />
+          <mxGeometry x="1099" y="832" width="253.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-61" value="" style="shape=link;html=1;rounded=0;strokeColor=light-dark(#FFFFFF, #1b1d1e);width=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Izek-PB7fgDzVprNoVY3-58" target="Izek-PB7fgDzVprNoVY3-41" edge="1">
           <mxGeometry relative="1" as="geometry">
