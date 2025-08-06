@@ -1,22 +1,22 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="PFwjI5xz76DF85EKXyYI">
-    <mxGraphModel dx="1678" dy="924" grid="0" gridSize="13" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="light-dark(#FFFFFF, #ffffff)" math="0" shadow="1">
+    <mxGraphModel dx="1426" dy="785" grid="0" gridSize="13" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="light-dark(#FFFFFF, #ffffff)" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Izek-PB7fgDzVprNoVY3-15" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;SALE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-15" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;SALE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="1163.5" y="533" width="143" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-16" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CUSTOMER&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-16" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CUSTOMER&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="692.9" y="533" width="143" height="52" as="geometry" />
         </mxCell>
         <mxCell id="r6ik5AGAl6sVwmavMajq-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Izek-PB7fgDzVprNoVY3-17" target="GEMINI-ATTR-REP-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-17" value="&lt;h2&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-weight: normal;&quot;&gt;REPAIR&lt;/font&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-17" value="&lt;h2&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-weight: normal;&quot;&gt;REPAIR&lt;/font&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="692.9" y="260" width="143" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-22" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;REQUESTS&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-22" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;REQUESTS&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(default, #1b1d1e);" parent="1" vertex="1">
           <mxGeometry x="676" y="377" width="176.8" height="90.67" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-24" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Izek-PB7fgDzVprNoVY3-22" target="Izek-PB7fgDzVprNoVY3-16" edge="1">
@@ -46,7 +46,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-35" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;MAKES_A&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-35" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;MAKES_A&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(default, #1b1d1e);" parent="1" vertex="1">
           <mxGeometry x="910" y="507" width="202.8" height="104" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-36" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000, #1b1d1e);entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Izek-PB7fgDzVprNoVY3-35" target="Izek-PB7fgDzVprNoVY3-16" edge="1">
@@ -81,10 +81,10 @@
             <mxPoint x="1384.5000000000005" y="687" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-41" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;INSTRUMENT&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-41" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;INSTRUMENT&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E, #ffffff);" parent="1" vertex="1">
           <mxGeometry x="1306.5" y="767" width="156" height="56.73" as="geometry" />
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-42" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;INCLUDES&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-42" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;INCLUDES&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(default, #1b1d1e);" parent="1" vertex="1">
           <mxGeometry x="1300" y="622" width="169" height="86.67" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-50" value="" style="shape=link;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Izek-PB7fgDzVprNoVY3-15" target="Izek-PB7fgDzVprNoVY3-42" edge="1">
@@ -112,10 +112,10 @@
             <mxPoint x="1133" y="897" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-57" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;COMPANY&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-57" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;COMPANY&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="910" y="871" width="143" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-58" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;MANUFACTURED_BY&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-58" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;MANUFACTURED_BY&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(default, #1b1d1e);" parent="1" vertex="1">
           <mxGeometry x="1079" y="832" width="253.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-61" value="" style="shape=link;html=1;rounded=0;strokeColor=light-dark(#FFFFFF, #1b1d1e);width=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Izek-PB7fgDzVprNoVY3-58" target="Izek-PB7fgDzVprNoVY3-41" edge="1">
@@ -145,7 +145,7 @@
             <mxPoint x="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-68" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMPLOYEE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-68" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EMPLOYEE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="637" y="622" width="143" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-76" value="" style="shape=link;html=1;rounded=0;strokeColor=light-dark(#000000, #1b1d1e);exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Izek-PB7fgDzVprNoVY3-70" edge="1">
@@ -159,13 +159,13 @@
             <mxPoint x="-4" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-78" value="&lt;h3&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;IS A&lt;/span&gt;&lt;/h3&gt;" style="triangle;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;direction=south;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-78" value="&lt;h3&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;IS A&lt;/span&gt;&lt;/h3&gt;" style="triangle;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);direction=south;" parent="1" vertex="1">
           <mxGeometry x="663.23" y="754" width="90.54" height="69.73" as="geometry" />
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-79" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;REPAIR_TECHNICIAN&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-79" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;REPAIR_TECHNICIAN&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="454" y="858" width="208" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-80" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;SALES_ASSOCIATE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-80" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;SALES_ASSOCIATE&lt;/span&gt;&lt;/h2&gt;" style="whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#182E3E,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="689" y="860" width="195" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Izek-PB7fgDzVprNoVY3-83" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Izek-PB7fgDzVprNoVY3-78" target="Izek-PB7fgDzVprNoVY3-68" edge="1">
@@ -192,7 +192,7 @@
             <mxPoint x="468" y="416" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Izek-PB7fgDzVprNoVY3-70" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PERFORMS&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" vertex="1">
+        <mxCell id="Izek-PB7fgDzVprNoVY3-70" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;PERFORMS&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(default, #1b1d1e);" parent="1" vertex="1">
           <mxGeometry x="364" y="377" width="176.8" height="90.67" as="geometry" />
         </mxCell>
         <mxCell id="G7WZexkPzq9MRGBm2pqB-93" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" parent="1" vertex="1">
@@ -213,7 +213,7 @@
         <mxCell id="G7WZexkPzq9MRGBm2pqB-104" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#182E3E;" parent="1" connectable="0" vertex="1">
           <mxGeometry x="442" y="871" as="geometry" />
         </mxCell>
-        <mxCell id="G7WZexkPzq9MRGBm2pqB-105" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PROCESSES&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=light-dark(#cce5ff, #b9ccda);" parent="1" vertex="1">
+        <mxCell id="G7WZexkPzq9MRGBm2pqB-105" value="&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;PROCESSES&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000,#000000);fontColor=light-dark(default, #1b1d1e);" parent="1" vertex="1">
           <mxGeometry x="1508" y="676" width="202.8" height="104" as="geometry" />
         </mxCell>
         <mxCell id="G7WZexkPzq9MRGBm2pqB-106" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000, #1b1d1e);entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;" parent="1" source="G7WZexkPzq9MRGBm2pqB-105" target="Izek-PB7fgDzVprNoVY3-80" edge="1">
@@ -245,8 +245,8 @@
             <mxPoint x="503" y="132" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-INST-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Serial_Number&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=light-dark(#000000, #1b1d1e);" parent="1" vertex="1">
-          <mxGeometry x="1471" y="791" width="135" height="54" as="geometry" />
+        <mxCell id="GEMINI-ATTR-INST-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Serial_Number&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1463" y="803" width="135" height="54" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-INST-1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-INST-1" target="Izek-PB7fgDzVprNoVY3-41" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -254,7 +254,7 @@
             <mxPoint x="1356.5" y="727" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-INST-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Model_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-INST-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Model_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1456" y="864" width="147.5" height="59" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-INST-3" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-INST-3" target="Izek-PB7fgDzVprNoVY3-41" edge="1">
@@ -263,7 +263,7 @@
             <mxPoint x="1456.5" y="787" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-INST-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;MRP&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-INST-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;MRP&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1397" y="1025" width="125" height="59" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-INST-5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);exitX=0.39;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="GEMINI-ATTR-INST-5">
@@ -272,7 +272,7 @@
             <mxPoint x="1407.1200096557359" y="823.7299999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-INST-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Condition&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-INST-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Condition&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1305" y="956" width="126" height="63" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-INST-7" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-INST-7" target="Izek-PB7fgDzVprNoVY3-41" edge="1">
@@ -281,7 +281,7 @@
             <mxPoint x="1266.5" y="847" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Customer_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-CUST-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Customer_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="769" y="464" width="118" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-CUST-1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="GEMINI-ATTR-CUST-1" target="Izek-PB7fgDzVprNoVY3-16" edge="1">
@@ -290,7 +290,7 @@
             <mxPoint x="672.9" y="503" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Phone_Number&lt;/font&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-CUST-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Phone_Number&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="519" y="559" width="150" height="59" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-CUST-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="GEMINI-ATTR-CUST-2" target="Izek-PB7fgDzVprNoVY3-16" edge="1">
@@ -299,8 +299,8 @@
             <mxPoint x="617.9" y="558" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Email_Address&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="636" y="472" width="124" height="41" as="geometry" />
+        <mxCell id="GEMINI-ATTR-CUST-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Email_Address&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="622" y="472" width="124" height="41" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-CUST-3" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="GEMINI-ATTR-CUST-3" target="Izek-PB7fgDzVprNoVY3-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -308,7 +308,7 @@
             <mxPoint x="672.9" y="653" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-CUST-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="884" y="481" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-CUST-5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="GEMINI-ATTR-CUST-5" target="Izek-PB7fgDzVprNoVY3-16" edge="1">
@@ -317,7 +317,7 @@
             <mxPoint x="812.9" y="588" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-5A" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;First_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-CUST-5A" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;First_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="831" y="421" width="104" height="38" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-CUST-5A" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="GEMINI-ATTR-CUST-5A" target="GEMINI-ATTR-CUST-5" edge="1">
@@ -326,7 +326,7 @@
             <mxPoint x="927.9" y="538" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-5C" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Last_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-CUST-5C" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Last_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="975" y="446" width="101" height="37" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-CUST-5C" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="GEMINI-ATTR-CUST-5C" target="GEMINI-ATTR-CUST-5" edge="1">
@@ -335,8 +335,8 @@
             <mxPoint x="927.9" y="638" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Address&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="598" y="507" width="80" height="40" as="geometry" />
+        <mxCell id="GEMINI-ATTR-CUST-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Address&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="563" y="503" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-CUST-6" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="GEMINI-ATTR-CUST-6" target="Izek-PB7fgDzVprNoVY3-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -344,11 +344,11 @@
             <mxPoint x="762.9" y="565" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-6A" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Street_Number&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="537" y="427" width="136" height="38" as="geometry" />
+        <mxCell id="GEMINI-ATTR-CUST-6A" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Street_Number&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="533" y="423" width="136" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-6B" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Street_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="485" y="468" width="112" height="39" as="geometry" />
+        <mxCell id="GEMINI-ATTR-CUST-6B" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Street_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="461" y="464" width="112" height="39" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-CUST-6B" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="GEMINI-ATTR-CUST-6B" target="GEMINI-ATTR-CUST-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -362,8 +362,8 @@
             <mxPoint x="887.9" y="725" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-CUST-6E" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Zip_Code&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="488" y="515" width="97" height="42" as="geometry" />
+        <mxCell id="GEMINI-ATTR-CUST-6E" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Zip_Code&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="443" y="521" width="97" height="42" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-CUST-6E" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="GEMINI-ATTR-CUST-6E" target="GEMINI-ATTR-CUST-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -371,7 +371,7 @@
             <mxPoint x="787.9" y="775" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-EMP-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Employee_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-EMP-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Employee_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="493" y="624" width="127" height="42" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-EMP-1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-EMP-1" target="Izek-PB7fgDzVprNoVY3-68" edge="1">
@@ -386,7 +386,7 @@
             <mxPoint x="747" y="592" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-EMP-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Salary&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-EMP-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Salary&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="757" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-EMP-4" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-EMP-4" target="Izek-PB7fgDzVprNoVY3-68" edge="1">
@@ -404,7 +404,7 @@
             <mxPoint x="657" y="732" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-EMP-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Date_of_Birth&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-EMP-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Date_of_Birth&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="704" width="115" height="46" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-EMP-7" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-EMP-7" target="Izek-PB7fgDzVprNoVY3-68" edge="1">
@@ -413,7 +413,7 @@
             <mxPoint x="617" y="662" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-EMP-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-EMP-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="793" y="611" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-EMP-9" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-EMP-9" target="Izek-PB7fgDzVprNoVY3-68" edge="1">
@@ -422,7 +422,7 @@
             <mxPoint x="627" y="612" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-EMP-9A" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;First_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-EMP-9A" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;First_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="871" y="585" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-EMP-9A" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-EMP-9A" target="GEMINI-ATTR-EMP-9" edge="1">
@@ -431,8 +431,8 @@
             <mxPoint x="642" y="452" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-EMP-9B" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Last_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="867" y="657" width="90" height="30" as="geometry" />
+        <mxCell id="GEMINI-ATTR-EMP-9B" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Last_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="858" y="657" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-EMP-9B" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-EMP-9B" target="GEMINI-ATTR-EMP-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -440,16 +440,16 @@
             <mxPoint x="762" y="452" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-REP-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Repair_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-REP-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Repair_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="572" y="169" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GEMINI-EDGE-REP-1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" parent="1" source="GEMINI-ATTR-REP-1" target="Izek-PB7fgDzVprNoVY3-17" edge="1">
+        <mxCell id="GEMINI-EDGE-REP-1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666,#000000);" parent="1" source="GEMINI-ATTR-REP-1" target="Izek-PB7fgDzVprNoVY3-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="592.9" y="220" as="sourcePoint" />
             <mxPoint x="692.9" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-REP-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Request_Date&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-REP-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Request_Date&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="793" y="169" width="128" height="48" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-REP-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-REP-2" target="Izek-PB7fgDzVprNoVY3-17" edge="1">
@@ -458,7 +458,7 @@
             <mxPoint x="732.9" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-REP-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Start_Date&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-REP-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Start_Date&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="852.9" y="230" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-REP-3" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-REP-3" target="Izek-PB7fgDzVprNoVY3-17" edge="1">
@@ -467,7 +467,7 @@
             <mxPoint x="802.9" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-REP-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Completion_Date&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-REP-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Completion_Date&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="852.9" y="290" width="141.1" height="55" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-REP-4" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-REP-4" target="Izek-PB7fgDzVprNoVY3-17" edge="1">
@@ -476,7 +476,7 @@
             <mxPoint x="802.9" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-REP-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Labor_Cost&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-REP-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Labor_Cost&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="507" y="221" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-REP-7" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-REP-7" target="Izek-PB7fgDzVprNoVY3-17" edge="1">
@@ -485,7 +485,7 @@
             <mxPoint x="602.9" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-REP-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Total_Repair_Cost&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-REP-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Total_Repair_Cost&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="672.9" y="115" width="164.1" height="55" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-REP-9" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-REP-9" target="Izek-PB7fgDzVprNoVY3-17" edge="1">
@@ -494,7 +494,7 @@
             <mxPoint x="732.9" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-REP-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Repair_Status&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-REP-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Repair_Status&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="603" y="340" width="121" height="48" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-REP-10" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-REP-10" target="Izek-PB7fgDzVprNoVY3-17" edge="1">
@@ -503,7 +503,7 @@
             <mxPoint x="722.9" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-SALE-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Sale_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-SALE-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Sale_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1082" y="452" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-SALE-1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-SALE-1" target="Izek-PB7fgDzVprNoVY3-15" edge="1">
@@ -512,7 +512,7 @@
             <mxPoint x="1193.5" y="503" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-SALE-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Sale_Date&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-SALE-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Sale_Date&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1129" y="669" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-SALE-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-SALE-2" target="Izek-PB7fgDzVprNoVY3-15" edge="1">
@@ -521,7 +521,7 @@
             <mxPoint x="1193.5" y="503" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-SALE-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Sale_Time&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-SALE-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Sale_Time&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1230" y="678" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-SALE-3" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-SALE-3" target="Izek-PB7fgDzVprNoVY3-15" edge="1">
@@ -530,7 +530,7 @@
             <mxPoint x="1273.5" y="573" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-SALE-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Total_Amount&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-SALE-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Total_Amount&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1183" y="427" width="122" height="42" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-SALE-4" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-SALE-4" target="Izek-PB7fgDzVprNoVY3-15" edge="1">
@@ -539,7 +539,7 @@
             <mxPoint x="1193.5" y="643" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-SALE-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Payment_Method&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-SALE-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Payment_Method&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1026" y="614" width="140" height="58" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-SALE-5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-SALE-5" target="Izek-PB7fgDzVprNoVY3-15" edge="1">
@@ -548,7 +548,7 @@
             <mxPoint x="1193.5" y="643" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-SALE-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Discount_Applied&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-SALE-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Discount_Applied&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1287" y="455" width="156" height="59" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-SALE-6" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-SALE-6" target="Izek-PB7fgDzVprNoVY3-15" edge="1">
@@ -557,7 +557,7 @@
             <mxPoint x="1123.5" y="573" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-COMP-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Company_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-COMP-1" value="&lt;u&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Company_ID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="793" y="936" width="130" height="51" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-COMP-1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-COMP-1" target="Izek-PB7fgDzVprNoVY3-57" edge="1">
@@ -566,7 +566,7 @@
             <mxPoint x="930" y="841" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-COMP-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Company_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-COMP-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Company_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="816" y="1007" width="135" height="59.53" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-COMP-2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-COMP-2" target="Izek-PB7fgDzVprNoVY3-57" edge="1">
@@ -575,7 +575,7 @@
             <mxPoint x="930" y="971" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-COMP-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Phone_Number&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-COMP-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Phone_Number&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="906" y="1079" width="139.7" height="54" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-COMP-3" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-COMP-3" target="Izek-PB7fgDzVprNoVY3-57" edge="1">
@@ -584,8 +584,8 @@
             <mxPoint x="920" y="921" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-COMP-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Email_Address&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="999" y="1006" width="137.5" height="55" as="geometry" />
+        <mxCell id="GEMINI-ATTR-COMP-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Email_Address&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="988" y="1018" width="137.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-COMP-4" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-COMP-4" target="Izek-PB7fgDzVprNoVY3-57" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -593,7 +593,7 @@
             <mxPoint x="1040" y="921" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-COMP-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Website&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-COMP-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Website&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1045" y="951" width="125" height="51" as="geometry" />
         </mxCell>
         <mxCell id="GEMINI-EDGE-COMP-5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);" parent="1" source="GEMINI-ATTR-COMP-5" target="Izek-PB7fgDzVprNoVY3-57" edge="1">
@@ -602,7 +602,7 @@
             <mxPoint x="1030" y="971" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IRFnyWRWwhQWNzLh-ada-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Phone_Number&lt;/font&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="IRFnyWRWwhQWNzLh-ada-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Phone_Number&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="429" y="667" width="149" height="53" as="geometry" />
         </mxCell>
         <mxCell id="IRFnyWRWwhQWNzLh-ada-3" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.894;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IRFnyWRWwhQWNzLh-ada-2" target="Izek-PB7fgDzVprNoVY3-68" edge="1">
@@ -611,10 +611,10 @@
             <mxPoint x="702" y="689" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEMINI-ATTR-EMP-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Date_of_Hire&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GEMINI-ATTR-EMP-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Date_of_Hire&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="846" y="696" width="108" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="Ukh730mb9IVmaOttTi9Z-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Age&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;fillColor=light-dark(#000000,#1D293B);" parent="1" vertex="1">
+        <mxCell id="Ukh730mb9IVmaOttTi9Z-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Age&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="459" y="734" width="81" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Ukh730mb9IVmaOttTi9Z-11" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Ukh730mb9IVmaOttTi9Z-10" edge="1">
@@ -623,7 +623,7 @@
             <mxPoint x="650" y="676" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ukh730mb9IVmaOttTi9Z-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Speciality&lt;/font&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Ukh730mb9IVmaOttTi9Z-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Speciality&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="398" y="931" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ukh730mb9IVmaOttTi9Z-21" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Ukh730mb9IVmaOttTi9Z-14" target="Izek-PB7fgDzVprNoVY3-79" edge="1">
@@ -632,7 +632,7 @@
             <mxPoint x="599" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r6ik5AGAl6sVwmavMajq-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Middle_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r6ik5AGAl6sVwmavMajq-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Middle_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="927" y="390" width="127" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r6ik5AGAl6sVwmavMajq-5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.725;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r6ik5AGAl6sVwmavMajq-3" target="GEMINI-ATTR-CUST-5">
@@ -641,8 +641,8 @@
             <mxPoint x="981" y="491" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r6ik5AGAl6sVwmavMajq-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Middle_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="912" y="621" width="102" height="34" as="geometry" />
+        <mxCell id="r6ik5AGAl6sVwmavMajq-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Middle_Name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="894" y="621" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r6ik5AGAl6sVwmavMajq-7" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r6ik5AGAl6sVwmavMajq-6" target="GEMINI-ATTR-EMP-9">
           <mxGeometry relative="1" as="geometry">
@@ -650,10 +650,10 @@
             <mxPoint x="898" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r6ik5AGAl6sVwmavMajq-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Repair_rate&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r6ik5AGAl6sVwmavMajq-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Repair_rate&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="498" y="985" width="107" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="r6ik5AGAl6sVwmavMajq-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Sales_target&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r6ik5AGAl6sVwmavMajq-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Sales_target&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="641" y="960" width="112" height="48.16" as="geometry" />
         </mxCell>
         <mxCell id="r6ik5AGAl6sVwmavMajq-10" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000, #1b1d1e);entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.62;exitY=0.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r6ik5AGAl6sVwmavMajq-8" target="Izek-PB7fgDzVprNoVY3-79">
@@ -668,7 +668,7 @@
             <mxPoint x="779" y="923" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r6ik5AGAl6sVwmavMajq-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Instrument_type&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r6ik5AGAl6sVwmavMajq-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Instrument_type&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=light-dark(#000000, #1b1d1e);fontColor=light-dark(#000000,#000000);strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1443" y="957" width="137" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r6ik5AGAl6sVwmavMajq-13" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#666666, #1b1d1e);exitX=0.23;exitY=0.094;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.715;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r6ik5AGAl6sVwmavMajq-12" target="Izek-PB7fgDzVprNoVY3-41">
@@ -677,10 +677,10 @@
             <mxPoint x="1442" y="869" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r6ik5AGAl6sVwmavMajq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEMINI-ATTR-SALE-3" target="GEMINI-ATTR-SALE-3">
+        <mxCell id="r6ik5AGAl6sVwmavMajq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEMINI-ATTR-SALE-1" target="GEMINI-ATTR-SALE-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r6ik5AGAl6sVwmavMajq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEMINI-ATTR-SALE-1" target="GEMINI-ATTR-SALE-1">
+        <mxCell id="r6ik5AGAl6sVwmavMajq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=light-dark(#000000,#000000);" edge="1" parent="1" source="GEMINI-ATTR-CUST-6B" target="GEMINI-ATTR-CUST-6B">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
